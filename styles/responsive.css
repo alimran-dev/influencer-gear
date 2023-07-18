@@ -13,12 +13,12 @@
         align-content: center;
         gap: 10px;
     }
-
+    .featured,
     .banner {
         flex-direction: column-reverse;
         height: auto;
     }
-
+    .featured,
     .banner-content {
         text-align: center;
     }
