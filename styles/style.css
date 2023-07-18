@@ -105,6 +105,9 @@ main {
     border-image: linear-gradient(to right, transparent, rgb(190, 190, 190), transparent);
     border-image-slice: 1;
 }
+.partner img{
+    width: 10%;
+}
 
 /* popular collections styles here  */
 .popular-collection {
