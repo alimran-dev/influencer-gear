@@ -87,12 +87,14 @@ nav li a {
     top: 20px;
     width: 92%;
 }
+
 /* main styles starts  */
-main{
+main {
     width: 70%;
     margin: 20px auto;
 }
-.partner{
+
+.partner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,58 +102,68 @@ main{
     padding: 20px 0px;
     border-top: 2px solid;
     border-bottom: 2px solid;
-    border-image: linear-gradient(to right,transparent,rgb(190, 190, 190),transparent);
+    border-image: linear-gradient(to right, transparent, rgb(190, 190, 190), transparent);
     border-image-slice: 1;
 }
 
 /* popular collections styles here  */
-.popular-collection{
+.popular-collection {
     margin: 80px auto 0px;
 }
-.popular-collection h2{
+
+.popular-collection h2 {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     margin: 40px auto;
 }
-.card-container{
+
+.card-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
-.card{
+
+.card {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
-.card img{
+
+.card img {
     width: 100%;
 }
-.card h3{
+
+.card h3 {
     font-size: 1.5rem;
     font-weight: 500;
     color: #18191F;
 }
-.card h4{
+
+.card h4 {
     font-size: 1.125rem;
     font-weight: 400;
     color: #000000de;
 }
-.rating{
+
+.rating {
     font-size: 0.7rem;
     font-weight: 700;
     color: #FB8200;
     padding: 5px 0px;
 }
-.rating-number{
+
+.rating-number {
     color: #5E6366;
 }
-.card-description{
+
+.card-description {
     font-size: 0.7rem;
     font-weight: 700;
     color: #787885;
 }
-.popular-collection>a{
+
+.popular-collection>a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
@@ -160,25 +172,58 @@ main{
     display: block;
     padding: 40px 0px;
 }
+
 /* featured styles here  */
-.featured{
+.featured {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.featured>img{
+
+.featured>img {
     width: 100%;
 }
-.featured-content h2{
+
+.featured-content h2 {
     font-size: 2rem;
     font-weight: 700;
     color: #0A0826;
 }
-.featured-content p{
+
+.featured-content p {
     font-size: 0.8rem;
     font-weight: 700;
     color: #6C6C6C;
 }
-.featured-content button{
+
+.featured-content button {
     border-radius: 5px;
+}
+
+/* footer styles here  */
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 100px 0px;
+    margin-top: 80px;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-description {
+    color: #D9DBE1;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.social-icons {
+    color: white;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
