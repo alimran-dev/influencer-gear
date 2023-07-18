@@ -37,4 +37,7 @@
     .partner img{
         width: 50px;
     }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
 }

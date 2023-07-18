@@ -104,3 +104,59 @@ main{
     border-image-slice: 1;
 }
 
+/* popular collections styles here  */
+.popular-collection{
+    margin: 80px auto 0px;
+}
+.popular-collection h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px auto;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.card{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #18191F;
+}
+.card h4{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #000000de;
+}
+.rating{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #FB8200;
+    padding: 5px 0px;
+}
+.rating-number{
+    color: #5E6366;
+}
+.card-description{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #787885;
+}
+.popular-collection>a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #E02C6D;
+    text-align: right;
+    display: block;
+    padding: 40px 0px;
+}
